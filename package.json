@@ -1,0 +1,16 @@
+{
+  "name": "queries",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "gh-pages": "^1.2.0",
+    "pg": "^7.4.3"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  }
+}
